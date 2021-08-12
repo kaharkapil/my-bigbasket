@@ -33,15 +33,36 @@ let productController = {
 
     addProduct: async (req, res) => {
         try {
-            let data = "Hello Ajay";
-            let newObj = new ProductModel({
-                name: "name1",
-                id: 1
-            })
+            const {
+                category, subCat, title,
+                price,
+                brand, images,
+                color,
+                weight, dimensions,
+                quantity,
+                isAvailable,
+                description,
+                show,
+                sellerId
+            } = req.body;
 
-            newObj.save().then(data => {
-                res.status(200).send({ 'success': '1', 'message': 'Product added successfully', 'data': data })
-            })
+            let newProduct = await new ProductModel({
+                category: category,
+                subCat: subCat,
+                title: title,
+                price: price,
+                brand: brand,
+                images: images,
+                color: color,
+                weight: weight,
+                dimensions: dimensions,
+                quantity: quantity,
+                isAvailable: isAvailable,
+                description: description,
+                show: show,
+            }).save()
+
+            return res.status(200).send({ 'success': '1', 'message': 'Product added successfully', 'data': newProduct })
 
         } catch (err) {
             console.log(err);
