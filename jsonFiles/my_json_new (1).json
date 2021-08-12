@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "product1": {
+        "productId": 123,
+        "productName": "Apple",
+        "productCategory": "Fruits",
+        "productDescription": "ffkjskjsdkdjg sngbs dsbgsdkjg sdgbsgjk kjsgskjd sdgjbsdkjg sdkjgskjg dsjkgjkdsg jskdng reki rekur woire b kw oirw oire l oeith rewriourhw owiuh uoghb poyemd odnfei fjenf  jefnf fienf feifef eifnnskoe iefneif eifnef eifroto tooth iene.",
+        "productSpecification": {
+          "weight": "1kg",
+          "dimenssions": "4cm x 4cm x 4cm",
+          "color": "red"
+        },
+        "sellerInfo": {
+          "sellerName": "Ajay",
+          "sellerAddress": "xyz, Rajod",
+          "sellerContactNumber": "12345678",
+          "sellerRating": 4,
+          "sellerRatingsCount": 298
+        },
+        "productPricePerUnit": "200",
+        "procductUnitType": "kg",
+        "productManufatureDate": "23 jan 2021",
+        "productExpiryDate": " 11 Dec 2021",
+        "productPhotos": {
+          "url1": "url1",
+          "url2": "url2",
+          "url3": "url3"
+        }
+      }
+    },
+    {
+      "product2": {
+        "productId": 123,
+        "productName": "PineApple",
+        "productCategory": "Fruits",
+        "productDescription": "ffkjskjsdkdjg sngbs dsbgsdkjg sdgbsgjk kjsgskjd sdgjbsdkjg sdkjgskjg dsjkgjkdsg jskdng reki rekur woire b kw oirw oire l oeith rewriourhw owiuh uoghb poyemd odnfei fjenf  jefnf fienf feifef eifnnskoe iefneif eifnef eifroto tooth iene.",
+        "productSpecification": {
+          "weight": "1kg",
+          "dimenssions": "4cm x 4cm x 4cm",
+          "color": "red"
+        },
+        "sellerInfo": {
+          "sellerName": "Ajay",
+          "sellerAddress": "xyz, Rajod",
+          "sellerContactNumber": "12345678",
+          "sellerRating": 4,
+          "sellerRatingsCount": 298
+        },
+        "productPricePerUnit": "200",
+        "procductUnitType": "kg",
+        "productManufatureDate": "23 jan 2021",
+        "productExpiryDate": " 11 Dec 2021",
+        "image_url": {
+          "url1": "url1",
+          "url2": "url2",
+          "url3": "url3"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/apple.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/banana1.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/banana2.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/pineapple1.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/pineapple2.webp
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/pineapple3.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/strawberry1.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/strawberry2.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/Strawberry3.jpg
+https://my-grocery-app.s3.ap-south-1.amazonaws.com/fruitsimages/watermelon.png
