@@ -1,5 +1,8 @@
+const dotenv = require('dotenv');
+dotenv.config();
 module.exports = {
-    port: 3000,
-    mongoDbUrl: "mongodb+srv://newApp:Newapp@1234@cluster0.ophv4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    apiVersion:'/api/V1'
+    PORT: process.env.PORT,
+    mongoDBUrl: process.env.mongoDB_Url,
+    Access_Key_ID: process.env.Access_Key_ID,
+    Secret_Access_Key : process.env.Secret_Access_Key
 }
